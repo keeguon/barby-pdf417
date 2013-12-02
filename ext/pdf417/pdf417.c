@@ -251,7 +251,7 @@ static VALUE rb_pdf417_lib_setYHeight(VALUE self, VALUE yHeight) {
 
 
 // The initialization method for this module
-void Init_pdf417() {
+void Init_pdf417_native() {
   rb_cPdf417 = rb_define_class("Pdf417", rb_cObject); // Our Pdf417 object    
   rb_cPdf417_Lib = rb_define_class_under(rb_cPdf417, "Lib", rb_cObject); // Our Pdf417::Lib object, to represent the C file
   rb_define_singleton_method(rb_cPdf417_Lib, "new", rb_pdf417_lib_new, 0);

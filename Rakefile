@@ -47,7 +47,7 @@ HOE = Hoe.spec 'barby-pdf417' do
     }
   end
 
-  self.version  = '0.1.1'
+  self.version  = '0.1.2'
   self.licenses = ['MIT']
 
   self.testlib = :minitest
