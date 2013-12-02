@@ -26,6 +26,8 @@ HOE = Hoe.spec 'barby-pdf417' do
     'lib/barby/barby-pdf417.{bundle,jar,rb,so}'
   ]
 
+  self.extra_deps << ['barby', '>= 0.5.1']
+
   self.extra_dev_deps += [
     ["hoe-bundler",     ">= 1.1"],
     ["hoe-debugging",   ">= 1.0.3"],
@@ -45,7 +47,7 @@ HOE = Hoe.spec 'barby-pdf417' do
     }
   end
 
-  self.version  = '0.1.0'
+  self.version  = '0.1.1'
   self.licenses = ['MIT']
 
   self.testlib = :minitest
