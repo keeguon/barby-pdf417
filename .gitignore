@@ -1,0 +1,8 @@
+*.swp
+Gemfile.lock
+lib/barby/barby-pdf417.bundle
+lib/barby/barby-pdf417.jar
+lib/barby/barby-pdf417.rb
+lib/barby/barby-pdf417.so
+pkg/
+tmp/

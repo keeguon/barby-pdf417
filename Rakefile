@@ -45,9 +45,11 @@ HOE = Hoe.spec 'barby-pdf417' do
     }
   end
 
+  self.version  = '0.1.0'
+  self.licenses = ['MIT']
+
   self.testlib = :minitest
 end
-HOE.spec.licenses = ['MIT']
 
 # ----------------------------------------
 
@@ -75,7 +77,7 @@ if java?
   end
 
   task gem_build_path => [:compile] do
-    add_file_to_gem 'lib/barby/barby.jar'
+    add_file_to_gem 'lib/barby/barby-pdf417.jar'
   end
 else
   require "rake/extensiontask"
