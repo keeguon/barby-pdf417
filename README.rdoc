@@ -1,0 +1,8 @@
+= Barby
+
+home :: http://toretore.github.com/barby
+code :: https://github.com/keeguon/barby-pdf417
+
+== Description
+
+Pdf417 support for Barby.
