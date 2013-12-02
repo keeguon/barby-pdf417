@@ -1,0 +1,14 @@
+CHANGELOG.rdoc
+Gemfile
+Gemfile.lock
+README.rdoc
+Rakefile
+ext/java/pdf417/Pdf417lib.java
+ext/pdf417/Makefile
+ext/pdf417/extconf.rb
+ext/pdf417/pdf417.c
+ext/pdf417/pdf417.h
+ext/pdf417/pdf417lib.c
+ext/pdf417/pdf417lib.h
+ext/pdf417/pdf417libimp.h
+lib/barby/barcode/pdf_417.rb
